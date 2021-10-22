@@ -1,0 +1,66 @@
+::selection {
+  background: #d3869b;
+}
+
+body {
+  background: #282828;
+  color: #ebdbb2;
+  font-family: 'inter', system-ui, sans-serif;
+  font-size: 1em;
+  margin: 0 auto;
+  max-width: 35em;
+  padding: 0 2rem;
+}
+
+a, a:active, a:visited {
+  color: #b16286;
+  background-color: #1d2021;
+  font-size: 1.25em;
+}
+
+a:hover {
+    color: white;
+    background-color: #b16286;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #98971a;  
+}
+
+button {
+  background-color: gray;
+  border: 2px solid black;
+  color: white;
+  padding: 1em 2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+}
+
+p {
+    margin: 0.5em 0;
+}
+
+ul {
+    margin: 0.5em 0;
+}
+
+table {
+    margin: 25px 0;
+    width: 100%;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.25em 0em;
+    text-align: center;
+}
+
+th, td {
+    padding: 0.5em 0.25em;
+}
+
+td {
+    background-color: #353535;
+}

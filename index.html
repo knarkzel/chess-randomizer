@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Chess randomizer</title>
+    <link rel="stylesheet" href="index.css" type="text/css" media="all">
+    <link rel="icon" type="image/png" href="favicon.png"/>
+</head>
+<body>
+    <h1>Chess randomizer</h1>
+    <p>
+        Click the button below to start generating various chess openings.
+        Click on "L" for game example on Lichess, "G" for a google search of this
+        opening and "W" for the same on Wikipedia.
+    </p>
+    <section id="app">
+        <p>Loading WASM...</p>
+    </section>
+    <script type="module">
+        import init from '/pkg/package.js';
+        init('/pkg/package_bg.wasm');
+    </script>
+</body>
+</html>
