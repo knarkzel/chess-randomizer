@@ -1,5 +1,7 @@
 # chess-randomizer
 
+ <img src="chess-randomizer.webp" width="350">
+
 `chess-randomizer` is a simple opening randomizer written in Rust using WASM and
 the Lichess API. To build the project, you need Rust and cargo-make:
 
